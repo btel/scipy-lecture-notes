@@ -18,7 +18,7 @@ Here is our (Mark and Nathaniel's) attempt to summarize the
 problem, proposals, and points of agreement/disagreement in a single
 place, to help the community move towards consensus.
 
-The Numpy developers' problem
+The NumPy developers' problem
 =============================
 
 For this discussion, "missing data" means array elements
@@ -113,7 +113,7 @@ Let's call this situation the "statistical missing data" situation,
 just to have a convenient handle for it. (As mentioned, practitioners
 just call this "missing data", and what to do about it is literally an
 entire sub-field of statistics; if you google "missing data" then
-every reference is on how to handle it.) Numpy isn't going to do
+every reference is on how to handle it.) NumPy isn't going to do
 automatic imputation or anything like that, but it could help a great
 deal by providing some standard way to at least represent data which
 is missing in this sense.
@@ -677,7 +677,7 @@ contributing code?
 If we go this route of writing up a decision process which includes
 such a dispute resolution mechanism, I think the meat of it should
 be a roadmap that potential contributers and developers can follow
-to gain influence over numpy. Numpy development needs broad support
+to gain influence over numpy. NumPy development needs broad support
 beyond code contributions, and tying influence in the project to
 contributions seems to me like it would be a good way to encourage
 people to take on tasks like bug triaging/management, continuous
